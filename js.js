@@ -36,7 +36,7 @@ function calc(x, y, action) {
 
     }
     if (action === "^") {
-        resultCalc = x ^ y;
+        resultCalc = Math.pow(x,y)
 
     }
     console.log(`${x}` + `${action}` + `${y}`+ ` = ` +`${resultCalc}`);
